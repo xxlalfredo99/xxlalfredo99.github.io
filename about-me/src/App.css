@@ -1,0 +1,17 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+}
+
+.profile-img {
+  width: 600px;
+  height: auto;
+  padding-top: 30px;
+}
