@@ -10,12 +10,19 @@ function App() {
           <h1>Welcome!</h1>
           <p>Discover my passions, stories and aspirations.</p>
           <img src="/profile.png" alt="My profile" className="hero-profile" />
-          <button className="cta">Learn More</button>
+          <button
+            className="cta"
+            onClick={() => {
+              document.getElementById("about-me").scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            Learn More
+          </button>
         </div>
       </section>
 
       {/* About Section */}
-      <section className="about-me">
+      <section id="about-me" className="about-me">
         <h2>About Me</h2>
         <img src="/sport.png" alt="" className="sport-profile" />
         <p>
@@ -33,21 +40,39 @@ function App() {
           <br />I was also starting my gradeschool's basketball team 😀
         </p>
       </section>
-      {/* Highlights Section */}
-      <section className="highlights">
-        <h2>Highlights</h2>
-        
+      {/* My-Journey Section */}
+      <section className="my_journey">
+        <h2>My Journey</h2>
+        <img src="/university.png" alt="" className="university-profile" />
+        <p>
+          As a Vancouver borned Canadian, I grow up in Hong Kong and moved to Canada in grade 6.<br />
+          The combining cultures have shaped my fundamentals and ignited my passion for technology.
+          <br /><br />
+          In University of Toronto, I dived further into the digital world in which I specialized in:
+        </p>
         <ul className="pinpoints">
-          <li>Creative Web Developer</li>
-          <li>Photography Enthusiast</li>
-          <li>Love Exploring New Tech</li>
+          <li>Computer Science - Information Systems Stream</li>
+        </ul>
+        <p>
+          This program is unique in a way that it includes many aspects including:
+        </p>
+        <ul className="pinpoints">
+          <li>Computer Computing</li>
+          <li>Information Technology</li>
+          <li>Database Systems</li>
+          <li>Business Management</li>
+          <li>Artifical Intellegence</li>
         </ul>
       </section>
-
       {/* Contact Section */}
       <section className="contact">
         <h2>Get in Touch</h2>
-        <button className="cta">Contact Me</button>
+        <p>
+          <br />
+          HK: +852 6574-5867<br />
+          CAD: +1 647-906-8178<br />
+          Gmail: alfredhongha@gmail.com
+        </p>
       </section>
     </div>
   );

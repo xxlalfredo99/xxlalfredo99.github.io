@@ -5,7 +5,7 @@
 /* Hero Section */
 .hero {
   background-size: cover;
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(35, 35, 35);
   background-position: center;
   height: 100vh;
   display: flex;              /* center overlay */
@@ -45,15 +45,15 @@
   margin: auto;
 }
 .about-me h2 {
-  color: rgb(50, 50, 50);
+  color: rgb(35, 35, 35);
 }
 .about-me p {
-  color: rgb(50, 50, 50);
+  color: rgb(35, 35, 35);
   margin-top: 20px;
   text-align: left;
 }
-.about-me ul {
-  color: rgb(50, 50, 50);
+.about-me li {
+  color: rgb(35, 35, 35);
   text-align: left;
 }
 .sport-profile {
@@ -62,18 +62,29 @@
   float: right;        /* pushes it to the right side */
   margin: 0 60px 20px 20px; /* adds spacing around it */
 }
-
-/* Highlights Section */
-.highlights {
-  background-color: rgb(50, 50, 50);
+/* My-Journey Section */
+.my_journey {
+  background-color: rgb(35, 35, 35);
   padding: 40px 20px;
 }
-.highlights h2 {
+.my_journey h2 {
   color: #fcfcfc;
+  text-align: right;
 }
-.highlights p {
+.my_journey p {
   color: #fcfcfc;
   margin-top: 20px;
+  text-align: right;
+}
+.my_journey li {
+  color: #fcfcfc;
+  text-align: right;
+}
+.university-profile {
+  width: 210px;        /* makes the image smaller */
+  height: auto;        /* keeps proportions */
+  float: left;        /* pushes it to the right side */
+  margin: 20px 60px 20px 20px; /* adds spacing around it */
 }
 .pinpoints {
   list-style-type: disc;
@@ -82,7 +93,17 @@
   margin: 20px auto;
   padding-left: 20px;
 }
-
+.about-me .pinpoints {
+  text-align: left;       /* aligns bullets to the left */
+  margin-left: 40px;      /* optional: indentation */
+  list-style-position: inside; /* keeps bullets aligned neatly */
+}
+.my_journey .pinpoints {
+  text-align: left;          /* force bullets to align left */
+  margin-left: 500px;         /* push list inward from the left edge */
+  margin-right: auto;        /* prevents right alignment */
+  list-style-position: inside; /* keeps bullets aligned neatly */
+}
 /* Contact Section */
 .contact {
   background-color: #800020;
