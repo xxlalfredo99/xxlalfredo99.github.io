@@ -48,10 +48,17 @@ function App() {
           As a Vancouver borned Canadian, I grow up in Hong Kong and moved to Canada in grade 6.<br />
           The combining cultures have shaped my fundamentals and ignited my passion for technology.
           <br /><br />
-          In University of Toronto, I dived further into the digital world in which I specialized in:
+          In {" "}
+          <a href="https://www.utoronto.ca" target="_blank" rel="noopener noreferrer">
+            University of Toronto
+          </a>
+          , I dived further into the digital world in which I specialized in:
         </p>
         <ul className="pinpoints">
-          <li>Computer Science - Information Systems Stream</li>
+          <li>{" "}
+          <a href="https://utsc.calendar.utoronto.ca/specialist-program-computer-science-information-systems-stream-science-scspe0455" target="_blank" rel="noopener noreferrer">
+            Computer Science - Information Systems Stream
+          </a></li>
         </ul>
         <p>
           This program is unique in a way that it includes many aspects including:
@@ -71,7 +78,12 @@ function App() {
           <br />
           HK: +852 6574-5867<br />
           CAD: +1 647-906-8178<br />
-          Gmail: alfredhongha@gmail.com
+          Gmail: alfredhongha@gmail.com<br />
+          <br />
+          You are welcomed to visit my {" "}
+          <a href="https://www.linkedin.com/in/alfred-tze-hong-ha" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
         </p>
       </section>
     </div>
