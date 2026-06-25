@@ -9,7 +9,7 @@ function App() {
         <div className="overlay">
           <h1>Welcome!</h1>
           <p>Discover my passions, stories and aspirations.</p>
-          <img src="profile.png" alt="My profile" className="hero-profile" />
+          <img src="/profile.png" alt="My profile" className="hero-profile" />
           <button
             className="cta"
             onClick={() => {
@@ -24,7 +24,7 @@ function App() {
       {/* About Section */}
       <section id="about-me" className="about-me">
         <h2>About Me</h2>
-        <img src="sport.png" alt="" className="sport-profile" />
+        <img src="/sport.png" alt="" className="sport-profile" />
         <p>
           I’m Alfred, a 24 years old learning and exploring things in life.<br />
           Outside of coding, I love reading, camping, and gathering with friends.<br /><br />
@@ -43,7 +43,7 @@ function App() {
       {/* My-Journey Section */}
       <section className="my_journey">
         <h2>My Journey</h2>
-        <img src="university.png" alt="" className="university-profile" />
+        <img src="/university.png" alt="" className="university-profile" />
         <p>
           As a Vancouver borned Canadian, I grow up in Hong Kong and moved to Canada in grade 6.<br />
           The combining cultures have shaped my fundamentals and ignited my passion for technology.
